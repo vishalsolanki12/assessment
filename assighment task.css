@@ -1,0 +1,633 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header
+{
+    /* height: 30px; */
+    background-color: black;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.head p
+{
+    color: aliceblue;
+    margin: 10px 0px 10px 100px;
+}
+.head span
+{
+    color: yellow;
+}
+.fa-brands
+{
+    padding-right: 15px;
+    color: white;
+}
+.fa-facebook
+{
+    margin: 10px 0px 10px 100px;
+}
+.nav
+{
+    /* height: 600px; */
+    background-image: url(../How-to-study-in-Australia-scaled.jpg.optimal.jpg);
+    background-size: 100% 100%;
+    /* filter: brightness(50%); */
+    padding: 0px 0px 200px 0px;
+}
+.nav1
+{
+    /* height: 80px; */
+    background-color:rgb(236, 233, 233,0.5);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.logo h1
+{
+    color: white;
+    font-size: 25px;
+    padding: 20px 0px 20px 100px;
+}
+.menu li
+{
+    display: inline;
+    padding: 0px 0px 0px 30px;
+}
+.menu ul
+{
+    padding: 20px 0px 20px 100px;
+}
+.menu a
+{
+    color: white;
+    text-decoration: none;
+}
+.text
+{
+    /* background-color: red; */
+    width: 600px;
+    color: white;
+    margin: 150px 0px 0px 150px;
+}
+.text h5,.text h1,.text p
+{
+    padding: 10px;
+}
+.text button
+{
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    word-spacing: 2px;
+    color: white;
+    font-size: 15px;
+    background-color: red;
+    border: none;
+}
+.text span 
+{
+    color: blue;
+}
+.slider
+{
+    background-image: url(../icon-pattern-backgrounds-53906.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    padding:100px 0px;
+}
+.slid 
+{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+    position: absolute;
+    top: -12%;
+    left: 5%;
+}
+.slid4,.slid3,.slid2
+{
+    background-color: brown;
+    border-radius: 20px;
+    margin: 10px 20px 10px 20px;
+    padding: 20px 0px 0px 40px;
+}
+.slid2 h3,.slid3 h3,.slid4 h3
+{
+    margin-left: 20px;
+    color: white;
+}
+.slid2 p,.slid3 p,.slid4 p
+{
+    line-height: 20px;
+    color: white;
+}
+.slid1,.slid5
+{
+    padding: 100px 0px 0px 40px;
+}
+.slid1 button,.slid5 button
+{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    font-size: 30px;
+}
+.fa-school
+{
+    height: 70px;
+    width: 70px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    font-size: 40px;
+    color: yellow;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.up
+{
+    border-bottom: 2px solid gray;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    margin: 0px 40px 0px 40px;
+}
+.img
+{
+    /* height: 700px; */
+    /* background-color: yellow; */
+    margin: 20px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.img1,.img3
+{
+    /* background-color: red; */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.img2
+{
+    /* background-color: blue; */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.bgimg3,.bgimg4
+{
+    background-color: white;
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+.bgimg2,.bgimg5
+{
+    /* background-color: blueviolet; */
+    border-radius: 15px;
+    margin: 30px 30px 30px 30px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+.bgimg 
+{
+    background-color: white;
+    border-radius: 15px;
+    margin: 30px 30px -40px 30px;
+}
+.bgimg h4
+{
+    padding: 50px 10px 10px 80px;
+}
+.bgimg p
+{
+    padding: 0px 0px 0px 80px;
+    line-height: 20px;
+}
+.bgimg button
+{
+    background-color: brown;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    border: none;
+    margin: 50px 0px 0px 80px;
+}
+.bgimg3
+{
+    margin: 0px 30px 30px 30px;
+}
+.bgimg4
+{
+   margin: 30px 30px 30px 30px;
+}
+.bgimg5
+{
+    margin: 0px 30px 30px 30px;
+}
+.bg1,.bg7,.bg3,.bg5
+{
+    background-color: white;
+}
+.bg1 h4,.bg3 h4,.bg5 h4,.bg7 h4
+{
+    padding: 10px 0px 0px 20px;
+}
+.bg1 h3,.bg3 h3,.bg5 h3,.bg7 h3
+{
+    margin: -30px 0px 0px 70px;
+}
+.bg1 p,.bg3 p,.bg5 p,.bg7 p 
+{
+    margin: 5px 0px 0px 70px;
+}
+.bg
+{
+    background-image: url(../download.jpg);
+    background-size: 100% 100%;
+}
+.bg2
+{
+    background-image: url(../download\ \(1\).jpg);
+    background-size: 100% 100%;
+}
+.bg4
+{
+    background-image: url(../download\ \(2\).jpg);
+    background-size: 100% 100%;
+}
+.bg6
+{
+    background-image: url(../download\ \(3\).jpg);
+    background-size: 100% 100%;
+}
+.page
+{
+    /* height: 550px; */
+    background-size: 100% 100%;
+    background-image: url(../international-students-wa-news-thumb.jpg);
+    padding:50px 0px 50px 0px;
+}
+.page1
+{
+    /* height: 450px; */
+    /* background-color: yellow; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.pages
+{
+    /* background-color: blue; */
+    margin:0px 50px 0px 150px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.one,.two
+{
+    background-color:rgb(236, 233, 233,0.5);
+    margin: 20px;
+    padding: 20px;
+}
+.one h2,.two h2
+{
+    font-size: 20px;
+    color: beige;
+    margin: 0px 0px 10px 20px;
+}
+.one p,.two p
+{
+    color: beige;
+}
+.one button
+{
+    background-color: red;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+}
+.two button
+{
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+}
+.pages1
+{
+    background-color: white;
+    margin:20px 150px 20px 50px;
+    border-radius: 15px;
+    padding: 50px;
+}
+.pages1 h4
+{
+    color: darkgoldenrod;
+    padding: 0px 0px 20px 0px;
+}
+.fa-chevron-down,.fa-chevron-right
+{
+    padding-left: 100px;
+}
+.left
+{
+    padding-left: 150px;
+}
+.pages1 h3
+{
+    padding: 15px 0px 10px 10px;
+}
+.pages1 p
+{
+    padding: 0px 0px 0px 10px;
+}
+.p
+{
+    padding: 0px 0px 20px 10px;
+}
+.p span
+{
+    color: blue;
+}
+.our
+{
+    /* height: 500px; */
+    background-image: url(../icon-pattern-backgrounds-53906.jpg);
+    background-size: 100% 100%;
+    padding: 50px 100px 50px 100px;
+}
+.our1
+{
+    /* height: 50px; */
+    /* background-color: brown; */
+    padding: 10px 0px 10px 20px;
+    color: white;
+    border-bottom: 2px solid gray;
+    margin: 0px 100px;
+}
+.our2
+{
+    /* height: 350px; */
+    /* background-color: aqua; */
+    margin: 30px 0px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+}
+.populer
+{
+    /* background-color: red; */
+    padding: 150px 10px 10px 30px;
+}
+.populer1
+{
+    background-color: blanchedalmond;
+    margin: 10px; 
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.5fr;
+}
+.pop1,.pop4,.pop7,.pop10
+{
+    background-color: white;
+    padding: 40px;
+}
+.pop2,.pop5,.pop8,.pop11
+{
+    background-color: white;
+    padding: 20px;
+}
+.pop
+{
+    background-image: url(../download.jpg);
+    background-size: 100% 100%;
+}
+.pop3
+{
+    background-image: url(../download\ \(1\).jpg);
+    background-size: 100% 100%;
+}
+.pop6
+{
+    background-image: url(../download\ \(2\).jpg);
+    background-size: 100% 100%;
+}
+.pop9
+{
+    background-image: url(../download\ \(3\).jpg);
+    background-size: 100% 100%;
+}
+.fa-star
+{
+    color: yellow;
+}
+.pop2 p,.pop5 p,.pop8 p,.pop11 p
+{
+   padding: 0px 0px 0px 140px;
+}
+.populer3
+{
+    background-color: blanchedalmond;
+    margin:10px 10px -20px 10px;
+    display: grid;
+    grid-template-rows: 0.9fr 1fr 0.5fr;
+}
+.populer2,.populer4
+{
+    background-color: blanchedalmond;
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.5fr;
+}
+.populer button
+{
+    border-radius: 50%;
+    border: none;
+}
+.fa-chevron-left,.right 
+{
+    padding: 10px;
+}
+.few 
+{
+    /* height: 500px; */
+   background-image: url(../pexels_background_3.jpg);
+   /* filter: brightness(50%); */
+   background-size: 100% 100%;
+   padding: 50px 100px 50px 100px;
+}
+.few1
+{
+    /* height: 400px; */
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.facts
+{
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    margin: 0px 50px 50px 150px;
+}
+.fact 
+{
+    /* background-color: red; */
+    padding: 5px 0px 0px 20px;
+}
+.fact h1 
+{
+    color: white;
+}
+.fact1 
+{
+    /* background-color: yellow; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.fac 
+{
+    /* background-color: azure; */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.award,.award1
+{
+    background-color:rgb(236, 233, 233,0.5);
+    margin: 30px 0px 30px 60px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.award h2,.award1 h2,.award2 h2,.award3 h2
+{
+    padding-left: 70px;
+    color: yellow;
+}
+.award p,.award1 p,.award2 p
+{
+    padding-left: 50px;
+    color: beige;
+}
+.award3 p
+{
+    padding-left: 60px;
+    color: beige;
+}
+.fac1 
+{
+    /* background-color: brown; */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.award2,.award3
+{
+    background-color:rgb(236, 233, 233,0.5);
+    margin: 60px 30px 0px 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.facts1
+{
+    background-image: url(../essay-writing-made-easy.webp);
+    background-size: 100% 100%;
+    filter: brightness(50%);
+    margin: 40px 40px 70px 0px;
+    border-radius: 20px;
+}
+.touch
+{
+    /* height: 550px; */
+    background-image: url(../icon-pattern-backgrounds-53906.jpg);
+    background-size: 100% 100%;
+    display: grid;
+    padding: 20px 0px 0px 0px;
+    grid-template-rows: 5fr 1fr;
+}
+.touch1
+{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px 150px 20px 150px;
+    border-bottom:2PX solid gray ;
+}
+.touchs
+{
+    background-color: azure;
+    margin: 15px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
+}
+.get,.get2    
+{
+    /* background-color: green; */
+    margin: 10px;
+    border-bottom: 1px solid gray;
+}
+.get2 textarea{
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    padding: 5px;
+    width: 100%;
+    margin: 0px 10px;
+}
+.get2 textarea::placeholder
+{
+    color: black;
+}
+.get h2
+{
+    padding: 10px;
+}
+.get1
+{
+    /* background-color: grey; */
+    margin: 10px;
+    padding: 20px 0px 0px 0px;
+}
+.get1 input
+{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: gray;
+    border: none;
+    margin: 10px;
+}
+.get1 input::placeholder
+{
+    color: black;
+}
+.touchs1
+{
+    background-color: brown;
+    border-radius: 15px;
+    margin:0px 60px 0px 0px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 20px 70px;
+}
+.touc
+{
+    border-bottom: 2px solid white;
+    padding: 10px 20px;
+}
+.touc p,.touc span
+{
+    color: white;
+}
+.touch2
+{
+    /* background-color: yellow; */
+    text-align: center;
+    padding-top: 20PX;
+}
+.touch2 p,h6
+{
+    color: azure;
+}
+.touch2 span
+{
+    color: yellow;
+}

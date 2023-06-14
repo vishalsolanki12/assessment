@@ -1,0 +1,140 @@
+@media (max-width:500px)
+{
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    .header
+{
+    flex-wrap: wrap;
+}
+.head
+{
+    width: 100%;
+    padding: 15px 0px 0px 20px;
+}
+.fa-facebook
+{
+    margin: 15px 0px 15px 150px;
+}
+.nav1
+{
+    flex-wrap: wrap;
+}
+.logo
+{
+    width: 100%;
+    padding-left: 50px;
+}
+.menu
+{
+    display: none;
+}
+.text
+{
+    width: 500px;
+    margin: 150px 0px 0px 0px;
+}
+.slider
+{
+    padding:10px 0px;
+}
+.slid
+{
+    flex-wrap: wrap;
+    position: static;
+}
+.slid1,.slid5
+{
+    display: none;
+}
+.img
+{
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+.img1
+{
+    width: 100%;
+}
+.img2
+{
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.page
+{
+    padding:0px 0px 0px 0px;
+}
+.page1
+{
+    flex-wrap: wrap;
+}
+.page2
+{
+    width: 100%;
+}
+.page3
+{
+    width: 100%;
+    margin: 20px 10px 20px 20px;
+}
+.our
+{
+    padding: 50px 10px 50px 10px;
+}
+.our2
+{
+    flex-wrap: wrap;
+    margin: 30px 0px;
+}
+.populer
+{
+    display: none;
+}
+.populer1,.populer2,.populer3,.populer4
+{
+    width: 100%;
+}
+.pop,.pop1,.pop3,.pop4,.pop6,.pop7,.pop9,.pop10
+{
+    height: 100px;
+}
+.few 
+{
+   padding: 50px 10px 50px 10px;
+}
+.few1
+{
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+.facts1
+{
+    height: 250px;
+    width: 70%;
+    margin: 30px 0px 0px 50px;
+}
+.award h2,.award1 h2,.award2 h2,.award3 h2,.award p,.award1 p,.award2 p,.award3 p
+{
+    padding-left: 0px;
+}
+.touch1
+{
+    flex-wrap: wrap;
+    padding: 20px 10px 20px 10px;
+}
+.touchs
+{
+    width: 100%;
+    margin: 0px;
+    border-radius: 15px;
+}
+.touchs1
+{
+    width: 100%;
+    margin:20px 60px 0px 30px;
+}
+}

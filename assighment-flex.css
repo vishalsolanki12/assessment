@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header
+{
+    background-color: black;
+    display: flex;
+}
+.head
+{
+    width: 80%;
+    /* background-color: yellow; */
+    padding: 15px 0px 15px 100px;
+    color: azure;
+}
+.head span
+{
+    color: yellow;
+}
+.fa-brands
+{
+    padding-right: 15px;
+    color: white;
+}
+.fa-facebook
+{
+    margin: 15px 0px 15px 100px;
+}
+.nav
+{
+    /* height: 600px; */
+    background-image: url(../How-to-study-in-Australia-scaled.jpg.optimal.jpg);
+    background-size: 100% 100%;
+    padding: 0px 0px 200px 0px;
+}
+.nav1
+{
+    background-color:rgb(236, 233, 233,0.5);
+    display: flex;
+}
+.logo
+{
+    width: 30%;
+}
+.logo h1
+{
+    color: white;
+    font-size: 25px;
+    padding: 20px 0px 20px 100px;
+}
+.menu li
+{
+    display: inline;
+    padding: 0px 0px 0px 30px;
+}
+.menu ul
+{
+    padding: 20px 0px 20px 100px;
+}
+.menu a
+{
+    color: white;
+    text-decoration: none;
+}
+.text
+{
+    /* background-color: red; */
+    width: 600px;
+    color: white;
+    margin: 150px 0px 0px 150px;
+}
+.text h5,.text h1,.text p
+{
+    padding: 10px;
+}
+.text button
+{
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    word-spacing: 2px;
+    color: white;
+    font-size: 15px;
+    background-color: red;
+    border: none;
+}
+.text span 
+{
+    color: blue;
+}
+.slider
+{
+    background-image: url(../icon-pattern-backgrounds-53906.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    padding:100px 0px;
+}
+.slid
+{
+    display: flex;
+    /* height: 100px; */
+    /* background-color: aqua; */
+    position: absolute;
+    top: -12%;
+    left: 5%;
+}
+.slid4,.slid3,.slid2
+{
+    background-color: brown;
+    border-radius: 20px;
+    margin: 10px 20px 10px 20px;
+    padding: 20px 0px 0px 40px;
+}
+.slid2 h3,.slid3 h3,.slid4 h3
+{
+    margin-left: 20px;
+    color: white;
+}
+.slid2 p,.slid3 p,.slid4 p
+{
+    line-height: 20px;
+    color: white;
+}
+.slid1,.slid5
+{
+    padding: 100px 0px 0px 40px;
+}
+.slid1 button,.slid5 button
+{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    font-size: 30px;
+}
+.fa-school
+{
+    height: 70px;
+    width: 70px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    font-size: 40px;
+    color: yellow;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.up
+{
+    border-bottom: 2px solid gray;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    margin: 0px 40px 0px 40px;
+}
+.img
+{
+    display: flex;
+    /* height: 700px; */
+    padding: 30px 50px;
+}
+.img1
+{
+    /* background-color: azure; */
+    width: 35%;
+    padding: 0px 20px;
+}
+.img5
+{
+    border-radius:10px ;
+    background-color: azure;
+    /* height: 350px; */
+    padding: 50px 60px 80px 60px;
+}
+.img5 h4 
+{
+    margin: 10px 0px;
+}
+.img5 p 
+{
+    line-height: 22px;
+}
+.img5 button
+{
+    background-color: brown;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    border: none;
+    margin: 50px 0px 0px 0px;
+}
+.img2
+{
+    width: 65%;
+    display: flex;
+}
+.img3,.img4
+{
+    width: 50%;
+    padding: 0px 20px;
+}
+.come1,.come3,.come5,.come7
+{
+    background-color: white;
+}
+.come1 h4,.come3 h4,.come5 h4,.come7 h4
+{
+    padding: 10px 0px 0px 20px;
+}
+.come1 h3,.come3 h3,.come5 h3,.come7 h3
+{
+    margin: -30px 0px 0px 70px;
+}
+.come1 p,.come3 p,.come5 p,.come7 p
+{
+    margin: 5px 0px 0px 70px;
+}
+.come
+{
+    height: 200px;
+    background-image: url(../download.jpg);
+    background-size: 100% 100%;
+}
+.come2
+{
+    height: 200px;
+    background-image: url(../download\ \(1\).jpg);
+    background-size: 100% 100%;
+}
+.come4
+{
+    height: 200px;
+    background-image: url(../download\ \(2\).jpg);
+    background-size: 100% 100%;
+}
+.come6
+{
+    height: 200px;
+    background-image: url(../download\ \(3\).jpg);
+    background-size: 100% 100%;
+}
+.img7,.img9
+{
+    margin-top: 20px;
+}
+.page
+{
+    /* height: 550px; */
+    background-size: 100% 100%;
+    background-image: url(../international-students-wa-news-thumb.jpg);
+    padding:50px 0px 50px 0px;
+}
+.page1
+{
+    display: flex;
+    /* background-color: aqua; */
+    /* height: 450px; */
+}
+.page2
+{
+    width: 50%;
+    margin: 20px 50px 20px 50px;
+}
+.page3
+{
+    border-radius:10px ;
+    width: 50%;
+    margin: 20px 150px 20px 20px;
+    background-color: azure;
+    padding: 50px;
+}
+.page4,.page5
+{
+    /* height: 204px; */
+    background-color:rgb(236, 233, 233,0.5);
+    margin: 20px;
+    padding: 20px 20px 40px 20px;
+}
+.page4 h2,.page5 h2
+{
+    font-size: 20px;
+    color: beige;
+    margin: 0px 0px 10px 20px;
+}
+.page4 p,.page5 p
+{
+    color: beige;
+}
+.page4 button
+{
+    background-color: red;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+}
+.page5 button
+{
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+}
+.page3 h4
+{
+    color: darkgoldenrod;
+    padding: 0px 0px 20px 0px;
+}
+.page3,.fa-chevron-down,.right
+{
+    padding-left: 100px;
+}
+.left
+{
+    padding-left: 150px;
+}
+.page3 h3
+{
+    padding: 15px 0px 10px 10px;
+}
+.page3 p
+{
+    padding: 0px 0px 0px 10px;
+}
+.p
+{
+    padding: 0px 0px 20px 10px;
+}
+.p span
+{
+    color: blue;
+}
+.our
+{
+    /* height: 500px; */
+    background-image: url(../icon-pattern-backgrounds-53906.jpg);
+    background-size: 100% 100%;
+    padding: 50px 100px 50px 100px;
+}
+.our1
+{
+    /* height: 50px; */
+    /* background-color: brown; */
+    padding: 10px 0px 10px 20px;
+    color: white;
+    border-bottom: 2px solid gray;
+    margin: 0px 100px;
+}
+.our2
+{
+    display: flex;
+    /* background-color: aqua; */
+    /* height: 370px; */
+    margin: 30px 0px;
+}
+.populer
+{
+    width: 10%;
+    /* background-color: blue; */
+}
+.populer1,.populer2,.populer3,.populer4
+{
+    width: 20%;
+    /* border: 2px solid; */
+    margin: 10px; 
+    /* display: flex; */
+}
+.pop,.pop1,.pop3,.pop4,.pop6,.pop7,.pop9,.pop10
+{
+    /* border: 2px solid red; */
+    height: 150px;
+}
+.pop2,.pop5,.pop11,.pop8
+{
+    height: 70px;
+}
+.populer
+{
+    /* background-color: red; */
+    padding: 150px 10px 10px 30px;
+}
+.populer button
+{
+    border-radius: 50%;
+    border: none;
+}
+.x,.y 
+{
+    padding: 10px;
+}
+.pop1,.pop4,.pop7,.pop10
+{
+    background-color: white;
+    padding: 40px;
+}
+.pop2,.pop5,.pop8,.pop11
+{
+    background-color: white;
+    padding: 20px;
+}
+.pop
+{
+    background-image: url(../download.jpg);
+    background-size: 100% 100%;
+}
+.pop3
+{
+    background-image: url(../download\ \(1\).jpg);
+    background-size: 100% 100%;
+}
+.pop6
+{
+    background-image: url(../download\ \(2\).jpg);
+    background-size: 100% 100%;
+}
+.pop9
+{
+    background-image: url(../download\ \(3\).jpg);
+    background-size: 100% 100%;
+}
+.fa-star
+{
+    color: yellow;
+}
+.few 
+{
+    /* height: 500px; */
+   background-image: url(../pexels_background_3.jpg);
+   /* filter: brightness(50%); */
+   background-size: 100% 100%;
+   padding: 50px 100px 50px 100px;
+}
+.few1
+{
+    display: flex;
+    /* background-color: aqua; */
+    /* height: 450px; */
+    padding: 0px 100px;
+}
+.facts
+{
+    /* border: 2px solid; */
+    width: 70%;
+}
+.fact 
+{
+    padding: 5px 0px 0px 20px;
+}
+.fact h1 
+{
+    color: white;
+}
+.fact1 
+{
+    display: flex;
+}
+.fac,.fac1 
+{
+    /* border: 2px solid red; */
+    width: 50%;
+}
+.award,.award1
+{
+    background-color:rgb(236, 233, 233,0.5);
+    margin: 30px 0px 30px 60px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.award h2,.award1 h2,.award2 h2,.award3 h2
+{
+    padding-left: 70px;
+    color: yellow;
+}
+.award p,.award1 p,.award2 p
+{
+    padding-left: 50px;
+    color: beige;
+}
+.award3 p
+{
+    padding-left: 60px;
+    color: beige;
+}
+.award2,.award3
+{
+    background-color:rgb(236, 233, 233,0.5);
+    margin: 60px 30px 0px 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.facts1
+{
+    width: 30%;
+    background-image: url(../essay-writing-made-easy.webp);
+    background-size: 100% 100%;
+    filter: brightness(50%);
+    margin: 40px 40px 70px 0px;
+    border-radius: 20px;
+}
+.touch
+{
+    /* height: 550px; */
+    background-image: url(../icon-pattern-backgrounds-53906.jpg);
+    background-size: 100% 100%;
+    padding: 20px 0px 0px 0px;
+}
+.touch1
+{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 20px 150px 20px 150px; */
+    border-bottom:2PX solid gray ;
+}
+.touchs
+{
+    /* width: 60%; */
+    /* border: 2px solid; */
+    background-color: azure;
+    /* margin: 15px; */
+    border-radius: 15px;
+}
+.get,.get2    
+{
+    /* background-color: green; */
+    margin: 10px;
+    border-bottom: 1px solid gray;
+}
+.get2
+{
+    margin-top: 40px;
+    width: auto;
+}
+.get2 textarea{
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    padding: 5px;
+    width: 100%;
+    /* margin: 0px 10px; */
+}
+.get2 textarea::placeholder
+{
+    color: black;
+}
+.get h2
+{
+    padding: 10px;
+    /* width: auto; */
+}
+.get1
+{
+    /* background-color: grey; */
+    margin: 10px;
+    padding: 20px 0px 0px 0px;
+}
+.get1 input
+{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: gray;
+    border: none;
+    margin: 10px;
+}
+.get1 input::placeholder
+{
+    color: black;
+}
+.touchs1
+{
+    /* width: 40%; */
+    background-color: brown;
+    border-radius: 15px;
+    /* margin:0px 60px 0px 0px; */
+    padding: 20px 70px;
+}
+.touc
+{
+    border-bottom: 2px solid white;
+    padding: 20px 20px;
+}
+.touc p,.touc span
+{
+    color: white;
+}
+.touch2
+{
+    /* background-color: yellow; */
+    text-align: center;
+    padding: 20PX 0;
+}
+.touch2 p,h6
+{
+    color: azure;
+}
+.touch2 span
+{
+    color: yellow;
+}

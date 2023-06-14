@@ -1,0 +1,180 @@
+@media (max-width:500px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .header
+{
+    padding: 30px 0px;
+    grid-template-columns: 1fr;
+}
+.head p
+{
+    margin: 0px 0px 0px 20px;
+}
+.fa-facebook
+{
+    margin: 10px 0px 0px 150px;
+}
+.nav1
+{
+    grid-template-columns: 1fr;
+}
+.menu
+{
+    display: none;
+}
+.logo h1
+{
+    padding: 20px 0px 20px 150px;
+}
+.text
+{
+    margin: 150px 0px 0px 0px;
+}
+.text p
+{
+    width: 80%;
+}
+.slider
+{
+    padding:20px 0px 0px 0px;
+}
+.slid 
+{
+    grid-template-columns: 1fr;
+    position: static;
+}
+.slid1,.slid5
+{
+    display: none;
+}
+.fa-school
+{
+    margin-left: 0px;
+}
+.slid2 h3,.slid3 h3,.slid4 h3
+{
+    margin: -60px 0px 0px 90px;
+}
+.slid2 p,.slid3 p,.slid4 p
+{
+    margin:0px 0px 20px 90px;
+}
+.img
+{
+    grid-template-columns: 1fr;
+}
+.img1
+{
+    grid-template-rows: 1fr;
+}
+.bgimg 
+{
+    margin: 10px 30px;
+}
+.bgimg h4
+{
+    padding: 20px 10px 10px 90px;
+}
+.bgimg p
+{
+    padding: 0px 0px 0px 90px;
+}
+.bgimg button
+{
+    margin: 20px 0px 20px 80px;
+}
+.pages
+{
+    margin:0px 50px 0px 50px;
+}
+.page1
+{
+    grid-template-columns: 1fr;
+}
+.one,.two
+{
+    margin: 10px;
+}
+.pages1
+{
+    margin:20px 50px 20px 50px;
+    padding: 30px 0px;
+}
+.our
+{
+    padding: 50px 0px 50px 0px;
+}
+.our1
+{
+    margin: 0px 20px;
+}
+.our2
+{
+    margin: 10px 20px;
+    grid-template-columns: 1fr;
+}
+.populer
+{
+    display: none;
+}
+.populer3
+{
+    margin: 10px;
+}
+.few 
+{
+   padding: 50px 0px 70px 0px;
+}
+.few1
+{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.facts
+{
+    margin: 0px 0px 50px 0px;
+}
+.fact h1 
+{
+    padding: 0px 0px 0px 0px;
+}
+.facts1
+{
+    margin: 30px 30px 0px 30px;
+}
+.touch1
+{
+    grid-template-columns: 2fr;
+    padding: 20px 0px 20px 0px;
+}
+.touchs
+{
+    margin: 15px 0px 0px 0px;
+}
+.touchs1
+{
+    margin:0px 0px 0px 0px;
+    padding: 20px 0px;
+}
+.touc
+{
+    border-bottom: 2px solid white;
+    padding: 10px 20px;
+}
+.touchs1
+{
+    background-color: brown;
+    border-radius: 15px;
+    margin:20px 0px 0px 0px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 20px 70px;
+}
+
+
+
+}
